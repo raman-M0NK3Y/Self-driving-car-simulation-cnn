@@ -4,7 +4,7 @@ In this project I train a self driving car using a Convolutional neural network.
 
 The idea and inspiration for the project came from youtuber [Siraj Raval](https://www.youtube.com/watch?v=EaY5QiZwSP4).
 
-Once data is collected using the simulator you get two files, a log file and a folder with a lot of images, located in mySimData folder. There are three cameras on the car so you get the center, left and right camera image. Not all the images have been uploaded due to Githubs file size limit. In the driving log file you have all the data that includes paths of the center, left, and right images, the steering angle, throttle, brake, and speed. The center images and steering angle are used to train the model, that will then generalize how to drive.
+Once data is collected using the simulator you get two files, a log file and a folder with a lot of images, located in mySimData folder. There are three cameras on the car so you get the center, left and right camera image. Not all the images have been uploaded due to Githubs file size limit. In the driving log file you have all the data that includes paths of the center, left, and right images, the steering angle, throttle, brake, and speed. I used the center images and steering angle to train the model, that will then generalize how to drive.
 
 **Video** : https://www.dailymotion.com/video/x7ykd7xqueue-enable=false
 
