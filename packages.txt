@@ -1,0 +1,10 @@
+Packages installed:
+
+-opencv-python
+-pandas
+-numpy
+-matplotlib
+-sklearn
+-tensorflow
+-tensorflow-gpu
+-imgaug
