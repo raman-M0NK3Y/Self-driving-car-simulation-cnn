@@ -47,7 +47,6 @@ Data is augmented using a variety of techniques to add more variety to help mode
 Images are cropped to remove any unnecessary data (sky, trees, front part of car). Images are also resized, color space is changed to YUV and normalized as proposed by Nvidia. This helps to better define lane lines and general path. Images are sent to training model in batches to help stabilize learning process.
 
 ![crop](https://dsm01pap002files.storage.live.com/y4miADtza2yDtti5GlJbnYlvnll3AnZC4l6O0fSspk_aN1sqgMn8GFu9DWmQ-W6OwAZkhevZ60WQTUFy3C9YLE415uL3Qwu7-d3eIFjH2dyonG47C-zFXKmqP5_b-lgkN-LfiUtR9cg7ac9sUlmmufVz5tteF5mJCilLxuvDdrp5oFFS6dBktqp0mZOLs2LcpOf?width=640&height=480&cropmode=none)
-
 ![yuv](https://dsm01pap002files.storage.live.com/y4mdXre-kODGzl3ArwNeUEmgJnQ-QOCqqxj9Rife-hFJ_8vGFcHY6rRI9VMoneYHbJx-KMHt5T_oeRKw_c46axvxIweJC6rqCPqw85iFVljDjfRe_EFNgI9DCFV7abDVgINiFjxCItASrQ1nJ37yvqiOKF76Xe7qzA2tq4uWZhnsZ9Mv-q4p16r8fHZFAME0QQ-?width=640&height=480&cropmode=none)
 
 ### Model
