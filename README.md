@@ -60,7 +60,7 @@ The architecture of the model is based on the ![Nvidia Model](https://developer.
 
 80% of data for training, 20% for validation. Trained the model on 45,000 images per epoch (10 times), and everytime it trains will generate batch of 150 images and validate 200 steps. Ran on GPU -gtx 1660.
 
-**Video** : https://www.dailymotion.com/video/x7ykd7xqueue-enable=false
+**Video** : https://www.dailymotion.com/video/x7ykd7x?queue-enable=false
 
 Now from the video you can see that the model is able to generalize enough to drive around the track succesfully without going out of bounds. Now the car is touching the lanes quite often when making turns but the car does not go out of bounds and is still able to go around the entire track. Considering that the model has only been trained on a few thousand images for couple of minutes compared to the 72 hours of training data Nvidia collected for their model it performs quite well. Also, to improve the model can make a lot of small changes to different parameters such as getting more data, training for longer, adding more flexibility in terms of augmentation, etc. 
 
