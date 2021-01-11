@@ -52,7 +52,7 @@ Images are cropped to remove any unnecessary data (sky, trees, front part of car
 
 ### Model
 
-The architecture of the model is based on the ![Nvidia Model](https://developer.nvidia.com/blog/deep-learning-self-driving-cars/) which they have tested on a real car. It is a CNN which works well tackling supervised regression problems such as this. End up with total parameters of 250 thousand which is what Nvidia has shown.
+The architecture of the model is based on the [Nvidia Model](https://developer.nvidia.com/blog/deep-learning-self-driving-cars/) which they have tested on a real car. It is a CNN which works well tackling supervised regression problems such as this. End up with total parameters of 250 thousand which is what Nvidia has shown.
 
 ![model](https://developer.nvidia.com/blog/parallelforall/wp-content/uploads/2016/08/cnn-architecture-624x890.png)
 
